@@ -79,7 +79,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="671.2,142.82399999999998" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="1417.6000000000001,667.2" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Default="Troostwijk_WebsiteURL" Name="AssetWebsiteName" />
       <Variable x:TypeArguments="x:String" Name="strAuctionsWebsite" />
@@ -87,7 +87,7 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-        <av:Size x:Key="ShapeSize">50,50</av:Size>
+        <av:Size x:Key="ShapeSize">49.6,49.6</av:Size>
         <av:Point x:Key="ShapeLocation">245,35</av:Point>
         <av:PointCollection x:Key="ConnectorLocation">270,85 270,115</av:PointCollection>
       </scg:Dictionary>
@@ -110,10 +110,10 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">225,445</av:Point>
-              <av:Size x:Key="ShapeSize">110,70</av:Size>
+              <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Country filter applied&quot;]">
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Country filter applied&quot;]">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -127,11 +127,11 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">315,315</av:Point>
-              <av:Size x:Key="ShapeSize">110,70</av:Size>
+              <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
               <av:PointCollection x:Key="ConnectorLocation">370,385 370,415 280,415 280,445</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Troostwijk - Apply Country filters - Invoke Workflow File (Troostwijk - Apply Country filters.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Troostwijk - Apply Country filters.xaml">
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Troostwijk - Apply Country filters - Invoke Workflow File (Troostwijk - Apply Country filters.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Troostwijk - Apply Country filters.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <InArgument x:TypeArguments="x:Int32" x:Key="in_IntDefaultTimeoutL" />
               <InArgument x:TypeArguments="x:Int32" x:Key="in_IntDefaultTimeoutM" />
@@ -157,11 +157,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">215,115</av:Point>
-          <av:Size x:Key="ShapeSize">110,70</av:Size>
+          <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
           <av:PointCollection x:Key="ConnectorLocation">270,185 270,220</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="[AssetWebsiteName]" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Auction Bidder" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="[AssetWebsiteName]" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Darius B" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
         <ui:GetRobotAsset.Value>
           <OutArgument x:TypeArguments="x:String">[strAuctionsWebsite]</OutArgument>
         </ui:GetRobotAsset.Value>
